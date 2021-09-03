@@ -1,4 +1,5 @@
 from flask import Flask, escape, request, render_template
+from replit import db
 
 app = Flask(__name__)
 
