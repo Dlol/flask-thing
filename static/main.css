@@ -1,0 +1,10 @@
+html{
+  font-family: Sans-Serif;
+}
+code{
+    background: #0c0c0c;
+    color: white;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+  }

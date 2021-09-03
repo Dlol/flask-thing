@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+
+<h1>Hello {{name}}</h1>
+<p>how are you doing, {{name}}?</p>
+
+<form action='/'>
+  <label for='name'>Get a new page...</label> <br>
+  <input id='name' name='name'>
+  <br>
+</form>
+
+<a href="/wow/{{name}}">go to a different page...</a>
